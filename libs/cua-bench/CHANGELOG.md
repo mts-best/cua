@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/trycua/cua/compare/bench-v0.3.1...bench-v0.4.0) (2026-11-05)
+
+
+### Features
+
+* compat gateways for E2B and Daytona, Hetzner as your own cloud, the elastic pool, cua share and the public relay ([#5778](https://github.com/trycua/cua/issues/5778)) ([d4f3f80](https://github.com/trycua/cua/commit/d4f3f8063d7b30a3b3bda2b4c05c565a9dfcb460))
+
 ## [0.3.1](https://github.com/trycua/cua/compare/bench-v0.3.0...bench-v0.3.1) (2026-10-19)
 
 
