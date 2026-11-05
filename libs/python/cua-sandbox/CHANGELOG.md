@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.10.0](https://github.com/trycua/cua/compare/sandbox-v0.9.1...sandbox-v0.10.0) (2026-11-05)
+
+
+### Features
+
+* compat gateways for E2B and Daytona, Hetzner as your own cloud, the elastic pool, cua share and the public relay ([#5778](https://github.com/trycua/cua/issues/5778)) ([d4f3f80](https://github.com/trycua/cua/commit/d4f3f8063d7b30a3b3bda2b4c05c565a9dfcb460))
+* **spaces:** Secure Spaces, child Spaces, conformance, space jobs and the macOS developer-tools image, behind experiments ([#6306](https://github.com/trycua/cua/issues/6306)) ([4715a72](https://github.com/trycua/cua/commit/4715a723a450610cdf77f688776c1fdd40660149))
+
 ## [0.9.1](https://github.com/trycua/cua/compare/sandbox-v0.9.0...sandbox-v0.9.1) (2026-10-19)
 
 
