@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.11.1](https://github.com/trycua/cua/compare/cua-spacesd-v0.11.0...cua-spacesd-v0.11.1) (2026-11-05)
+
+
+### Bug Fixes
+
+* **cua-driver:** initialize recording hooks for embedded platform registries ([#5785](https://github.com/trycua/cua/issues/5785)) ([0a05cd4](https://github.com/trycua/cua/commit/0a05cd40069594f02738bc2f4ac6f6bc0dc6390d))
+* **cua-mesh:** a failed dial no longer answers for a peer that came online since ([#6479](https://github.com/trycua/cua/issues/6479)) ([ebf96e5](https://github.com/trycua/cua/commit/ebf96e5ff17a12d92f67f7d32a740662a1bc435c))
+
 ## [0.11.0](https://github.com/trycua/cua/compare/cua-spacesd-v0.10.1...cua-spacesd-v0.11.0) (2026-11-05)
 
 
