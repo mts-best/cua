@@ -846,10 +846,14 @@ fn emit_cached_node(
         let ptr = retained.as_raw() as usize;
         std::mem::forget(retained);
 
+        // Content-only nodes (Qt-drawn labels, buttons without a cached
+        // pattern) still need geometry: coordinate work and out-of-bounds
+        // checks apply to them exactly as to actionable nodes.
+        let (center_x, center_y, rect) = read_cached_bounding_rect_full(element);
+
         let node = if is_actionable {
             let idx = *counter;
             *counter += 1;
-            let (center_x, center_y, rect) = read_cached_bounding_rect_full(element);
             emitted_parent = Some(idx);
             UiaNode {
                 element_index: Some(idx),
@@ -882,9 +886,9 @@ fn emit_cached_node(
                 enabled,
                 selected,
                 element_ptr: ptr,
-                center_x: 0,
-                center_y: 0,
-                rect: None,
+                center_x,
+                center_y,
+                rect,
                 msaa_role: None,
                 depth,
                 parent_element_index: parent_index,

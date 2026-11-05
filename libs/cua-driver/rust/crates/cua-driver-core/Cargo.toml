@@ -6,7 +6,7 @@ license.workspace = true
 publish = false
 
 [features]
-default = ["yaml", "rego", "script"]
+default = ["yaml", "script"]
 yaml = ["dep:regex"]
 rego = ["dep:regorus"]
 # `run_script` tool: an embedded QuickJS engine (rquickjs and quickjs-ng,

@@ -9,6 +9,7 @@ members = [
     "crates/cua-driver-e2e",
     "crates/cua-driver-uia",
     "crates/cua-driver-core",
+    "crates/cua-driver-qt",
     "crates/platform-macos",
     "crates/platform-windows",
     "crates/platform-linux",

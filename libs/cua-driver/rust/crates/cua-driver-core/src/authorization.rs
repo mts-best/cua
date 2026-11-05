@@ -939,6 +939,7 @@ pub fn advertised_risk_for(tool: &str) -> RiskAssessment {
         // External/file side effects or generic compound action surfaces.
         "get_desktop_state"
         | "get_window_state"
+        | "qt_resolve"
         | "kill_app"
         | "stop_recording"
         | "replay_trajectory"

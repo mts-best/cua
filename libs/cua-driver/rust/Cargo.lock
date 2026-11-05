@@ -1207,6 +1207,7 @@ dependencies = [
  "cap-std",
  "cua-driver-contract",
  "cua-driver-core",
+ "cua-driver-qt",
  "cua-driver-sdk",
  "cua-driver-testkit",
  "cua-telemetry",
@@ -1326,6 +1327,20 @@ dependencies = [
  "tokio-tungstenite",
  "windows 0.61.3",
  "x11rb",
+]
+
+[[package]]
+name = "cua-driver-qt"
+version = "0.38.0"
+dependencies = [
+ "async-trait",
+ "cua-driver-core",
+ "platform-windows",
+ "serde",
+ "serde_json",
+ "sha2",
+ "tokio",
+ "windows 0.58.0",
 ]
 
 [[package]]

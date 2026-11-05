@@ -315,6 +315,7 @@ fn maybe_init_pip() {
 fn register_host_tools(registry: &mut cua_driver_core::tool::ToolRegistry) {
     history_runtime::register_host_tools(registry);
     extension_manager::register_host_tools(registry);
+    cua_driver_qt::register_qt_tools(registry);
 }
 
 /// Construct the canonical SDK-owned runtime for the CLI or daemon host.
